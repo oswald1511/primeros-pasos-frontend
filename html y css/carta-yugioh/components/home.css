@@ -1,0 +1,47 @@
+body {
+    padding: 2rem 5rem;
+}
+
+.container {
+    background-color: var(--color-bg-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+.imagen-carta {
+    position: relative;
+    box-shadow: 10px 7px 24px 0px rgba(0,0,0,0.97);
+-webkit-box-shadow: 10px 7px 24px 0px rgba(0,0,0,0.97);
+-moz-box-shadow: 10px 7px 24px 0px rgba(0,0,0,0.97);
+}
+
+.titulo-carta {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.imagen-personaje {
+    position:absolute;
+    object-fit: fill;
+    height: 49.5%;
+    width: 77%;
+    left: 3rem;
+    top: 17%;
+}
+
+.descripcion-carta {
+    position: absolute;
+    bottom: 21%;
+    left: 8%;
+}
+
+.stats {
+    position: absolute;
+    right: 8%;
+    bottom: 7%;
+}

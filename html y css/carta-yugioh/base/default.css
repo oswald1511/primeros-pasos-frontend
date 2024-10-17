@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'yugioh';
+    src: url('../fonts/squealer.regular.otf');
+    format('truetype');
+}
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: var(--color-bg-dark);
+    font-family: var(--font);
+    color: var(--color-font);
+}
